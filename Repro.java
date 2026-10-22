@@ -9,7 +9,8 @@ import dev.hegel.TestCase;
 import java.util.function.Predicate;
 
 /**
- * Single-file reproducer (needs the Hegel property-testing library 0.10.2 on the class path).
+ * Original reproducer (needs the Hegel property-testing library 0.10.2 on the class path).
+ * See MinimalRepro.java for a reduced reproducer without dependencies.
  *
  *   java --enable-preview --enable-native-access=ALL-UNNAMED -cp hegel-0.10.2.jar:hegel-lowlevel-0.10.2.jar \
  *        --source 28 Repro.java
